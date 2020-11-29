@@ -1,0 +1,37 @@
+
+*{
+   
+    flex-wrap: wrap;
+justify-content: space-evenly;
+}
+h1{
+    color:#345353;
+    text-align:center;
+    }
+    a:link{
+        justify-content: space-evenly;
+        color:#e60000
+    }
+    a:visited{
+        color:#e60000
+    }
+    /**{
+        border:solid;
+    }*/
+    html{
+        display:flex;
+        justify-content:space-between;
+        background-color: #e60054;
+        padding:15px;
+        font-size:20px;
+        font-family:Georgia;
+        font-weight:400;
+        color:#ffffff
+    }
+    body{
+        margin:0px;
+        background-color: #000000;
+    }
+    .origami:hover{
+        transform:scale(1.2);
+    }
